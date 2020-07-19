@@ -1,14 +1,12 @@
-#include "Random.h"
 #include <iostream>
+#include "Random.h"
 using namespace std;
 
 // Test program
-int main( )
-{
-    Random r{ 1 };
+int main() {
+  Random r{1};
 
-    for( int i = 0; i < 20; ++i )
-        cout << r.randomInt( ) << endl;
+  for (int i = 0; i < 20; ++i) cout << r.randomInt() << endl;
 
-    return 0;
+  return 0;
 }
